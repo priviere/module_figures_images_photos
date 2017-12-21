@@ -2,9 +2,9 @@
 
 # Documents utilisés dans les modules de formation
 
-- Le document est ici: https://github.com/priviere/module_figures_images_photos/fiche/photos_images_figures_fiche.Rmd 
-- Les licences des documents et des codes sont ici: https://github.com/priviere/module_figures_images_photos/LICENCE 
-- Le document pour suivre les évolutions est ici: https://github.com/priviere/module_figures_images_photos/NEWS
+- Le code du document est ici: https://github.com/priviere/module_figures_images_photos/blob/master/fiche/photos_images_figures_fiche.Rmd
+- Les licences des documents et des codes sont ici: https://github.com/priviere/module_figures_images_photos/blob/master/LICENCE.md
+- Le suivi des évolutions est ici: https://github.com/priviere/module_figures_images_photos/blob/master/NEWS.md
 
 
 
