@@ -1,0 +1,55 @@
+---
+title: "La gestion dynamique de la biodiversité cultivée dans les Maisons des Semences Paysannes en réseau"
+output: html_document
+bibliography: /home/pierre/Documents/RSP/formations/modules_formations/module_figures_images_photos/biblio_docs.bib
+csl: /home/pierre/Documents/RSP/formations/modules_formations/module_figures_images_photos/cell-numeric-perso.csl
+---
+
+# Documents utilisés dans les modules de formation
+**Version 4 du 21 décembre 2017.**
+
+**Pierre Rivière** ^1^
+
+^1^ Réseau Semences Paysannes, 3, avenue de la Gare F-47190 Aiguillon, France
+
+**Contact** : pierre@semencespaysannes.org
+
+**Copyright Réseau Semences Paysannes. [Licence creative commons BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)**
+
+```{r , out.width='20%', fig.align='center', echo=FALSE}
+knitr::include_graphics("../documents/cc-by-nc-sa.png")
+```
+
+
+Ce document est sous licence creative commons BY-NC-SA. 
+Vous êtes autorisé à partager et à adapter son contenu tant que vous citez les auteurs de ce chapitre et indiquez si des changements ont eu lieu, que vous ne faites pas un usage commercial de ce chapitre, tout ou partie du matériel
+le composant, que vous partagez dans les mêmes conditions votre travail issu de ce chapitre. 
+Plus d’informations ici: http://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr.
+
+**Pour citer ce document:**
+Cycle de formations sur la gestion dynamique de la biodiversité cultivée dans les Maisons des Semences Paysannes en réseau. Documents utilisés dans le cycle de formation. 
+Réseau Semences Paysannes. 
+Version 4 du 20 décembre 2017. 
+Fiche technique.
+Licence CC BY NC SA.
+
+## Liste des documents cités dans les supports de formation
+
+Le tableau ci-dessous recense les photos, les images et les figures présentes dans le cycle de
+formation. 
+Les noms des documents sont cités dans l’ordre alphabétique. 
+Elles sont téléchargeables ici : . 
+Les références permettent de savoir comment citer, utiliser et télécharger ces documents.
+
+
+```{r, child = 'table_bib.Rmd'}
+```
+
+## Bibliographie
+
+
+
+
+
+
+
