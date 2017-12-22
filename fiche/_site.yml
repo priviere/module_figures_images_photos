@@ -4,10 +4,10 @@ navbar:
   left:
     - text: "Fiche"
       href: index.html
+    - text: "Téléchargement"
+      href: download.html
     - text: "Licence"
       href: LICENCE.html
     - text: "Evolutions"
       href: NEWS.html
-    - text: "Téléchargement de la fiche"
-      href: format.html
 output_dir: "../docs"
