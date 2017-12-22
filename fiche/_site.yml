@@ -1,6 +1,6 @@
 name: "photos_images_figures_fiche"
 navbar:
-  title: "photos_images_figures_fiche"
+  title: "Documents utilisés dans les modules de formation"
   left:
     - text: "Fiche"
       href: index.html
