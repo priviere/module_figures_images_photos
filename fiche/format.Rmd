@@ -1,9 +1,9 @@
 
 Télécharger la fiche sous différents formats:
 
-- [odt]()
-- [docx]()
-- [pdf]()
-- [rtf]()
+- [odt](https://github.com/priviere/module_figures_images_photos/releases/download/v4/index.odt)
+- [docx](https://github.com/priviere/module_figures_images_photos/releases/download/v4/index.docx)
+- [pdf](https://github.com/priviere/module_figures_images_photos/releases/download/v4/index.pdf)
+- [rtf](https://github.com/priviere/module_figures_images_photos/releases/download/v4/index.rtf)
 
 
