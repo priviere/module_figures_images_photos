@@ -1,0 +1,7 @@
+name: "photos_images_figures_fiche"
+navbar:
+  title: "photos_images_figures_fiche"
+  left:
+    - text: "Home"
+      href: index.html
+output_dir: "../docs"
