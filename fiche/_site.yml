@@ -2,10 +2,10 @@ name: "photos_images_figures_fiche"
 navbar:
   title: "photos_images_figures_fiche"
   left:
-    - text: "Home"
+    - text: "Fiche"
       href: index.html
     - text: "Licence"
       href: LICENCE.html
-    - text: "News"
+    - text: "Evolutions"
       href: NEWS.html
 output_dir: "../docs"
