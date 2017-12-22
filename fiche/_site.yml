@@ -4,4 +4,8 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "Licence"
+      href: LICENCE.html
+    - text: "News"
+      href: NEWS.html
 output_dir: "../docs"
