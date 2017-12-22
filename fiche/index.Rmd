@@ -42,7 +42,7 @@ Elles sont téléchargeables ici : .
 Les références permettent de savoir comment citer, utiliser et télécharger ces documents.
 
 
-```{r, child = 'table_bib.Rmd'}
+```{r, child = '_table_bib.Rmd'}
 ```
 
 ## Bibliographie
