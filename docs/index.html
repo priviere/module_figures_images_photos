@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>La gestion dynamique de la biodiversité cultivée dans les Maisons des Semences Paysannes en réseau</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">photos_images_figures_fiche</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">La gestion dynamique de la biodiversité cultivée dans les Maisons des Semences Paysannes en réseau</h1>
+
+</div>
+
+
+<div id="documents-utilises-dans-les-modules-de-formation" class="section level1">
+<h1>Documents utilisés dans les modules de formation</h1>
+<p><strong>Version 4 du 21 décembre 2017.</strong></p>
+<p><strong>Pierre Rivière</strong> <sup>1</sup></p>
+<p><sup>1</sup> Réseau Semences Paysannes, 3, avenue de la Gare F-47190 Aiguillon, France</p>
+<p><strong>Contact</strong> : <a href="mailto:pierre@semencespaysannes.org">pierre@semencespaysannes.org</a></p>
+<p><strong>Copyright Réseau Semences Paysannes. <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licence creative commons BY-NC-SA 4.0</a></strong></p>
+<p><img src="/home/pierre/Documents/RSP/formations/modules_formations/module_figures_images_photos/documents/cc-by-nc-sa.png" width="20%" style="display: block; margin: auto;" /></p>
+<p>Ce document est sous licence creative commons BY-NC-SA. Vous êtes autorisé à partager et à adapter son contenu tant que vous citez les auteurs de ce chapitre et indiquez si des changements ont eu lieu, que vous ne faites pas un usage commercial de ce chapitre, tout ou partie du matériel le composant, que vous partagez dans les mêmes conditions votre travail issu de ce chapitre. Plus d’informations ici: <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr" class="uri">http://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr</a>.</p>
+<p><strong>Pour citer ce document:</strong> Cycle de formations sur la gestion dynamique de la biodiversité cultivée dans les Maisons des Semences Paysannes en réseau. Documents utilisés dans le cycle de formation. Réseau Semences Paysannes. Version 4 du 20 décembre 2017. Fiche technique. Licence CC BY NC SA.</p>
+<div id="liste-des-documents-cites-dans-les-supports-de-formation" class="section level2">
+<h2>Liste des documents cités dans les supports de formation</h2>
+<p>Le tableau ci-dessous recense les photos, les images et les figures présentes dans le cycle de formation. Les noms des documents sont cités dans l’ordre alphabétique. Elles sont téléchargeables ici : . Les références permettent de savoir comment citer, utiliser et télécharger ces documents.</p>
+<table style="width:11%;">
+<colgroup>
+<col width="5%" />
+<col width="5%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nom du document</th>
+<th>Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>611px-DNA_structure_and_bases_FR</td>
+<td><span class="citation">[1]</span></td>
+</tr>
+<tr class="even">
+<td>abdul_diff_mkr</td>
+<td><span class="citation">[2]</span></td>
+</tr>
+<tr class="odd">
+<td>abdul_haplo_network</td>
+<td><span class="citation">[3]</span></td>
+</tr>
+<tr class="even">
+<td>abdul_haplo_network_legend</td>
+<td><span class="citation">[4]</span></td>
+</tr>
+<tr class="odd">
+<td>abdul_pie_groups</td>
+<td><span class="citation">[5]</span></td>
+</tr>
+<tr class="even">
+<td>ACP_C21_color</td>
+<td><span class="citation">[6]</span></td>
+</tr>
+<tr class="odd">
+<td>ACP_pheno_bis</td>
+<td><span class="citation">[7]</span></td>
+</tr>
+<tr class="even">
+<td>ANB_pop_printemps_juillet</td>
+<td><span class="citation">[8]</span></td>
+</tr>
+<tr class="odd">
+<td>backcross</td>
+<td><span class="citation">[9]</span></td>
+</tr>
+<tr class="even">
+<td>BER-visite5</td>
+<td><span class="citation">[10]</span></td>
+</tr>
+<tr class="odd">
+<td>bormans</td>
+<td><span class="citation">[11]</span></td>
+</tr>
+<tr class="even">
+<td>brassage_biodiv</td>
+<td><span class="citation">[12]</span></td>
+</tr>
+<tr class="odd">
+<td>C14_rep1_BER</td>
+<td><span class="citation">[13]</span></td>
+</tr>
+<tr class="even">
+<td>C14_rep2_BER</td>
+<td><span class="citation">[14]</span></td>
+</tr>
+<tr class="odd">
+<td>C21_1</td>
+<td><span class="citation">[15]</span></td>
+</tr>
+<tr class="even">
+<td>C21_4</td>
+<td><span class="citation">[16]</span></td>
+</tr>
+<tr class="odd">
+<td>C21_6</td>
+<td><span class="citation">[17]</span></td>
+</tr>
+<tr class="even">
+<td>C21_8</td>
+<td><span class="citation">[18]</span></td>
+</tr>
+<tr class="odd">
+<td>C21_10</td>
+<td><span class="citation">[19]</span></td>
+</tr>
+<tr class="even">
+<td>C21_14</td>
+<td><span class="citation">[20]</span></td>
+</tr>
+<tr class="odd">
+<td>C21_15</td>
+<td><span class="citation">[21]</span></td>
+</tr>
+<tr class="even">
+<td>C21_19</td>
+<td><span class="citation">[22]</span></td>
+</tr>
+<tr class="odd">
+<td>carte_2014-2015</td>
+<td><span class="citation">[23]</span></td>
+</tr>
+<tr class="even">
+<td>carte_2015_tomates</td>
+<td><span class="citation">[24]</span></td>
+</tr>
+<tr class="odd">
+<td>carte_diffusion_2008</td>
+<td><span class="citation">[25]</span></td>
+</tr>
+<tr class="even">
+<td>carte-exsitu</td>
+<td><span class="citation">[26]</span></td>
+</tr>
+<tr class="odd">
+<td>carte_fso</td>
+<td><span class="citation">[27]</span></td>
+</tr>
+<tr class="even">
+<td>carte_msp</td>
+<td><span class="citation">[28]</span></td>
+</tr>
+<tr class="odd">
+<td>cc-by-nc-sa</td>
+<td><span class="citation">[29]</span></td>
+</tr>
+<tr class="even">
+<td>cellule_chromosome_adn</td>
+<td><span class="citation">[30]</span></td>
+</tr>
+<tr class="odd">
+<td>cellule_vegetal</td>
+<td><span class="citation">[31]</span></td>
+</tr>
+<tr class="even">
+<td>Chambrefroide</td>
+<td><span class="citation">[32]</span></td>
+</tr>
+<tr class="odd">
+<td>croisement+generations</td>
+<td><span class="citation">[33]</span></td>
+</tr>
+<tr class="even">
+<td>cycle_ble</td>
+<td><span class="citation">[34]</span></td>
+</tr>
+<tr class="odd">
+<td>croisement</td>
+<td><span class="citation">[35]</span></td>
+</tr>
+<tr class="even">
+<td>Darwin</td>
+<td><span class="citation">[36]</span></td>
+</tr>
+<tr class="odd">
+<td>degustation_pain_1</td>
+<td><span class="citation">[37]</span></td>
+</tr>
+<tr class="even">
+<td>degustation_pain_2</td>
+<td><span class="citation">[38]</span></td>
+</tr>
+<tr class="odd">
+<td>degustation_pain_3</td>
+<td><span class="citation">[39]</span></td>
+</tr>
+<tr class="even">
+<td>degustation_tomates_1</td>
+<td><span class="citation">[40]</span></td>
+</tr>
+<tr class="odd">
+<td>degustation_tomates_2</td>
+<td><span class="citation">[41]</span></td>
+</tr>
+<tr class="even">
+<td>diffusion_aestivum</td>
+<td><span class="citation">[42]</span></td>
+</tr>
+<tr class="odd">
+<td>diffusion_monococcum</td>
+<td><span class="citation">[43]</span></td>
+</tr>
+<tr class="even">
+<td>diffusion_turgidum</td>
+<td><span class="citation">[44]</span></td>
+</tr>
+<tr class="odd">
+<td>dossier_retour</td>
+<td><span class="citation">[45]</span></td>
+</tr>
+<tr class="even">
+<td>dynamique-relation-reseau_without_MLN</td>
+<td><span class="citation">[46]</span></td>
+</tr>
+<tr class="odd">
+<td>echanges_savoirs</td>
+<td><span class="citation">[47]</span></td>
+</tr>
+<tr class="even">
+<td>Effets_genetiques_minimum_et_maximum_des_populations_dans_le_reseau_pour_le_taux_de_proteine_1194476811</td>
+<td><span class="citation">[48]</span></td>
+</tr>
+<tr class="odd">
+<td>Elinor-Ostrom</td>
+<td><span class="citation">[49]</span></td>
+</tr>
+<tr class="even">
+<td>epifert-19Mai</td>
+<td><span class="citation">[50]</span></td>
+</tr>
+<tr class="odd">
+<td>epiMS-19Mai</td>
+<td><span class="citation">[51]</span></td>
+</tr>
+<tr class="even">
+<td>etapes_co_construction</td>
+<td><span class="citation">[52]</span></td>
+</tr>
+<tr class="odd">
+<td>etape-selection-ferme-cereales</td>
+<td><span class="citation">[53]</span></td>
+</tr>
+<tr class="even">
+<td>etape-selection-ferme-tomates</td>
+<td><span class="citation">[54]</span></td>
+</tr>
+<tr class="odd">
+<td>evolution_pop</td>
+<td><span class="citation">[55]</span></td>
+</tr>
+<tr class="even">
+<td>evolution_pop_2</td>
+<td><span class="citation">[56]</span></td>
+</tr>
+<tr class="odd">
+<td>ex_migration_gab65</td>
+<td><span class="citation">[57]</span></td>
+</tr>
+<tr class="even">
+<td>fecondation_vegetaux</td>
+<td><span class="citation">[58]</span></td>
+</tr>
+<tr class="odd">
+<td>fiche-ete</td>
+<td><span class="citation">[59]</span></td>
+</tr>
+<tr class="even">
+<td>fiches_2013-2014_d2_notice_fiche_ete</td>
+<td><span class="citation">[60]</span></td>
+</tr>
+<tr class="odd">
+<td>figures_formation_shinemas_ydo</td>
+<td><span class="citation">[61]</span></td>
+</tr>
+<tr class="even">
+<td>FLM_2012</td>
+<td><span class="citation">[62]</span></td>
+</tr>
+<tr class="odd">
+<td>formation-croisement-cetab-2013-1</td>
+<td><span class="citation">[63]</span></td>
+</tr>
+<tr class="even">
+<td>formation-croisement-cetab-2013-2</td>
+<td><span class="citation">[64]</span></td>
+</tr>
+<tr class="odd">
+<td>formation-croisement-cetab-2013-3</td>
+<td><span class="citation">[65]</span></td>
+</tr>
+<tr class="even">
+<td>FRC-visite17</td>
+<td><span class="citation">[66]</span></td>
+</tr>
+<tr class="odd">
+<td>genealogie_ble</td>
+<td><span class="citation">[67]</span></td>
+</tr>
+<tr class="even">
+<td>gnis_exsitu</td>
+<td><span class="citation">[68]</span></td>
+</tr>
+<tr class="odd">
+<td>gradiant_brassage</td>
+<td><span class="citation">[69]</span></td>
+</tr>
+<tr class="even">
+<td>Gregor_Mendel_oval</td>
+<td><span class="citation">[70]</span></td>
+</tr>
+<tr class="odd">
+<td>gxe</td>
+<td><span class="citation">[71]</span></td>
+</tr>
+<tr class="even">
+<td>iaastd</td>
+<td><span class="citation">[72]</span></td>
+</tr>
+<tr class="odd">
+<td>interactions-SP</td>
+<td><span class="citation">[73]</span></td>
+</tr>
+<tr class="even">
+<td>japhabelle1</td>
+<td><span class="citation">[74]</span></td>
+</tr>
+<tr class="odd">
+<td>japhabelle2</td>
+<td><span class="citation">[75]</span></td>
+</tr>
+<tr class="even">
+<td>japhabelle3</td>
+<td><span class="citation">[76]</span></td>
+</tr>
+<tr class="odd">
+<td>japhabelle4</td>
+<td><span class="citation">[77]</span></td>
+</tr>
+<tr class="even">
+<td>japhabelle5</td>
+<td><span class="citation">[78]</span></td>
+</tr>
+<tr class="odd">
+<td>japhabelle6</td>
+<td><span class="citation">[79]</span></td>
+</tr>
+<tr class="even">
+<td>japhabelle7</td>
+<td><span class="citation">[80]</span></td>
+</tr>
+<tr class="odd">
+<td>japhabelle8</td>
+<td><span class="citation">[81]</span></td>
+</tr>
+<tr class="even">
+<td>JFB_2011</td>
+<td><span class="citation">[82]</span></td>
+</tr>
+<tr class="odd">
+<td>JSG_2012_1</td>
+<td><span class="citation">[83]</span></td>
+</tr>
+<tr class="even">
+<td>JSG_2012</td>
+<td><span class="citation">[84]</span></td>
+</tr>
+<tr class="odd">
+<td>JSG-visite1</td>
+<td><span class="citation">[85]</span></td>
+</tr>
+<tr class="even">
+<td>Lamark</td>
+<td><span class="citation">[86]</span></td>
+</tr>
+<tr class="odd">
+<td>Logo-CC</td>
+<td><span class="citation">[87]</span></td>
+</tr>
+<tr class="even">
+<td>Logo-CNIL</td>
+<td><span class="citation">[88]</span></td>
+</tr>
+<tr class="odd">
+<td>Logo-Conf</td>
+<td><span class="citation">[89]</span></td>
+</tr>
+<tr class="even">
+<td>Logo-Diversifood</td>
+<td><span class="citation">[90]</span></td>
+</tr>
+<tr class="odd">
+<td>Logo-EU</td>
+<td><span class="citation">[91]</span></td>
+</tr>
+<tr class="even">
+<td>Logo-FdF</td>
+<td><span class="citation">[92]</span></td>
+</tr>
+<tr class="odd">
+<td>Logo-ITAB</td>
+<td><span class="citation">[93]</span></td>
+</tr>
+<tr class="even">
+<td>Logo-maiage</td>
+<td><span class="citation">[94]</span></td>
+</tr>
+<tr class="odd">
+<td>Logo-RSP</td>
+<td><span class="citation">[95]</span></td>
+</tr>
+<tr class="even">
+<td>Logo-SOLIBAM</td>
+<td><span class="citation">[96]</span></td>
+</tr>
+<tr class="odd">
+<td>Logo-UMRGV</td>
+<td><span class="citation">[97]</span></td>
+</tr>
+<tr class="even">
+<td>mdt-adapt</td>
+<td><span class="citation">[98]</span></td>
+</tr>
+<tr class="odd">
+<td>mdt-diff</td>
+<td><span class="citation">[99]</span></td>
+</tr>
+<tr class="even">
+<td>mdt-div</td>
+<td><span class="citation">[100]</span></td>
+</tr>
+<tr class="odd">
+<td>mdt-dyn</td>
+<td><span class="citation">[101]</span></td>
+</tr>
+<tr class="even">
+<td>methodo-globale</td>
+<td><span class="citation">[102]</span></td>
+</tr>
+<tr class="odd">
+<td>moisson_1800</td>
+<td><span class="citation">[103]</span></td>
+</tr>
+<tr class="even">
+<td>moisson_egypte</td>
+<td><span class="citation">[104]</span></td>
+</tr>
+<tr class="odd">
+<td>moisson_moyen_age1</td>
+<td><span class="citation">[105]</span></td>
+</tr>
+<tr class="even">
+<td>moisson_moyen_age2</td>
+<td><span class="citation">[106]</span></td>
+</tr>
+<tr class="odd">
+<td>moisson_moyen_age3</td>
+<td><span class="citation">[107]</span></td>
+</tr>
+<tr class="even">
+<td>msms</td>
+<td><span class="citation">[108]</span></td>
+</tr>
+<tr class="odd">
+<td>msms1</td>
+<td><span class="citation">[109]</span></td>
+</tr>
+<tr class="even">
+<td>msms2</td>
+<td><span class="citation">[110]</span></td>
+</tr>
+<tr class="odd">
+<td>msms3</td>
+<td><span class="citation">[111]</span></td>
+</tr>
+<tr class="even">
+<td>msms4</td>
+<td><span class="citation">[112]</span></td>
+</tr>
+<tr class="odd">
+<td>msms5</td>
+<td><span class="citation">[113]</span></td>
+</tr>
+<tr class="even">
+<td>msms6</td>
+<td><span class="citation">[114]</span></td>
+</tr>
+<tr class="odd">
+<td>msms7</td>
+<td><span class="citation">[115]</span></td>
+</tr>
+<tr class="even">
+<td>msms8</td>
+<td><span class="citation">[116]</span></td>
+</tr>
+<tr class="odd">
+<td>msp_objectifs_acteurs</td>
+<td><span class="citation">[117]</span></td>
+</tr>
+<tr class="even">
+<td>OUT_graph_4-c-2-evolution-etape-ppb__dynamique-relation-reseau_without_MLN</td>
+<td><span class="citation">[118]</span></td>
+</tr>
+<tr class="odd">
+<td>picri_qualite</td>
+<td><span class="citation">[119]</span></td>
+</tr>
+<tr class="even">
+<td>plan_FR</td>
+<td><span class="citation">[120]</span></td>
+</tr>
+<tr class="odd">
+<td>plan_FS</td>
+<td><span class="citation">[121]</span></td>
+</tr>
+<tr class="even">
+<td>plan_semis_gd_parcelle</td>
+<td><span class="citation">[122]</span></td>
+</tr>
+<tr class="odd">
+<td>plan_S-NS</td>
+<td><span class="citation">[123]</span></td>
+</tr>
+<tr class="even">
+<td>plante_ble</td>
+<td><span class="citation">[124]</span></td>
+</tr>
+<tr class="odd">
+<td>plan_tomates</td>
+<td><span class="citation">[125]</span></td>
+</tr>
+<tr class="even">
+<td>plant_tomate</td>
+<td><span class="citation">[126]</span></td>
+</tr>
+<tr class="odd">
+<td>plateforme_phenotypage_agropolis</td>
+<td><span class="citation">[127]</span></td>
+</tr>
+<tr class="even">
+<td>plateforme_phenotypage_inra_toulouse</td>
+<td><span class="citation">[128]</span></td>
+</tr>
+<tr class="odd">
+<td>PPBstats_unnamed-chunk-25-1</td>
+<td><span class="citation">[129]</span></td>
+</tr>
+<tr class="even">
+<td>PPBstats_unnamed-chunk-46-1</td>
+<td><span class="citation">[130]</span></td>
+</tr>
+<tr class="odd">
+<td>presence_abscence_matrix_pmg2015</td>
+<td><span class="citation">[131]</span></td>
+</tr>
+<tr class="even">
+<td>proba</td>
+<td><span class="citation">[132]</span></td>
+</tr>
+<tr class="odd">
+<td>prot_fdf</td>
+<td><span class="citation">[133]</span></td>
+</tr>
+<tr class="even">
+<td>question-cadre</td>
+<td><span class="citation">[134]</span></td>
+</tr>
+<tr class="odd">
+<td>RAB_2012</td>
+<td><span class="citation">[135]</span></td>
+</tr>
+<tr class="even">
+<td>rdt_fdf</td>
+<td><span class="citation">[136]</span></td>
+</tr>
+<tr class="odd">
+<td>recombinaison</td>
+<td><span class="citation">[137]</span></td>
+</tr>
+<tr class="even">
+<td>relation_SL</td>
+<td><span class="citation">[138]</span></td>
+</tr>
+<tr class="odd">
+<td>relation_SL_EN</td>
+<td><span class="citation">[139]</span></td>
+</tr>
+<tr class="even">
+<td>rep</td>
+<td><span class="citation">[140]</span></td>
+</tr>
+<tr class="odd">
+<td>reseau_BDD</td>
+<td><span class="citation">[141]</span></td>
+</tr>
+<tr class="even">
+<td>ROW-visite14</td>
+<td><span class="citation">[142]</span></td>
+</tr>
+<tr class="odd">
+<td>salade</td>
+<td><span class="citation">[143]</span></td>
+</tr>
+<tr class="even">
+<td>SandR</td>
+<td><span class="citation">[144]</span></td>
+</tr>
+<tr class="odd">
+<td>SandR_EN</td>
+<td><span class="citation">[145]</span></td>
+</tr>
+<tr class="even">
+<td>schema_selection_tomates</td>
+<td><span class="citation">[146]</span></td>
+</tr>
+<tr class="odd">
+<td>segregation_f2</td>
+<td><span class="citation">[147]</span></td>
+</tr>
+<tr class="even">
+<td>sel-decentralisee</td>
+<td><span class="citation">[148]</span></td>
+</tr>
+<tr class="odd">
+<td>selection-hierarchisee-site-UPOV-acces-le-2012-09-25</td>
+<td><span class="citation">[149]</span></td>
+</tr>
+<tr class="even">
+<td>sigma_distribution_plant_height</td>
+<td><span class="citation">[150]</span></td>
+</tr>
+<tr class="odd">
+<td>sigma_distribution_tkw</td>
+<td><span class="citation">[151]</span></td>
+</tr>
+<tr class="even">
+<td>sigma_gamma</td>
+<td><span class="citation">[152]</span></td>
+</tr>
+<tr class="odd">
+<td>siregal_capture_ecran</td>
+<td><span class="citation">[153]</span></td>
+</tr>
+<tr class="even">
+<td>sp1</td>
+<td><span class="citation">[154]</span></td>
+</tr>
+<tr class="odd">
+<td>sp2</td>
+<td><span class="citation">[155]</span></td>
+</tr>
+<tr class="even">
+<td>sp3</td>
+<td><span class="citation">[156]</span></td>
+</tr>
+<tr class="odd">
+<td>sp5</td>
+<td><span class="citation">[157]</span></td>
+</tr>
+<tr class="even">
+<td>sp6</td>
+<td><span class="citation">[158]</span></td>
+</tr>
+<tr class="odd">
+<td>sp8</td>
+<td><span class="citation">[159]</span></td>
+</tr>
+<tr class="even">
+<td>sp-en-cours</td>
+<td><span class="citation">[160]</span></td>
+</tr>
+<tr class="odd">
+<td>SP_futur</td>
+<td><span class="citation">[161]</span></td>
+</tr>
+<tr class="even">
+<td>spicilege_capture_ecran</td>
+<td><span class="citation">[162]</span></td>
+</tr>
+<tr class="odd">
+<td>technical-booklet</td>
+<td><span class="citation">[163]</span></td>
+</tr>
+<tr class="even">
+<td>unctad</td>
+<td><span class="citation">[164]</span></td>
+</tr>
+<tr class="odd">
+<td>VM</td>
+<td><span class="citation">[165]</span></td>
+</tr>
+<tr class="even">
+<td>VP</td>
+<td><span class="citation">[166]</span></td>
+</tr>
+<tr class="odd">
+<td>warning</td>
+<td><span class="citation">[167]</span></td>
+</tr>
+<tr class="even">
+<td>WEB_ok_Les_MSP</td>
+<td><span class="citation">[168]</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="bibliographie" class="section level2 unnumbered">
+<h2>Bibliographie</h2>
+<div id="refs" class="references">
+<div id="ref-611px-DNA_structure_and_bases_FR">
+<p>1. Dosto Structure de l’ADN et bases. Téléchargeable ici: <a href="Licence CC BY. https://github.com/priviere/module_figures_images_photos/releases/download/v4/DNA_structure_and_bases_FR.png téléchargement" class="uri">Licence CC BY. https://github.com/priviere/module_figures_images_photos/releases/download/v4/DNA_structure_and_bases_FR.png téléchargement</a>.</p>
+</div>
+<div id="ref-abdul_diff_mkr">
+<p>2. Khan, A. (2013). Tableau 2.6.: Marqueurs de gènes candidats montrant une différenciation significative dans le temps. Thèse de doctorat Université Paris Sud: Short term response of European wheat populations to contrasted agro-climatic conditions: a genetic analysis and first step towards development of epigenetic markers in earliness gene VRN-A1, 60–61. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/abdul_diff_mkr.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/abdul_diff_mkr.png</a>.</p>
+</div>
+<div id="ref-abdul_haplo_network">
+<p>3. Khan, A. (2013). Figure 2.5.: Réseau d’haplotypes pour toutes les populations. tous les haplotypes qui apparraissent plus d’une fois sont représentés et sont connectés si la différence entre eux est supérieur à 15. la couleur représente le groupe génétique auquel il appartient. Thèse de doctorat Université Paris Sud: Short term response of European wheat populations to contrasted agro-climatic conditions: a genetic analysis and first step towards development of epigenetic markers in earliness gene VRN-A1, 48. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/abdul_haplo_network.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/abdul_haplo_network.png</a>.</p>
+</div>
+<div id="ref-abdul_haplo_network_legend">
+<p>4. Khan, A. (2013). Légende de la figure 2.5.: Réseau d’haplotypes pour toutes les populations. tous les haplotypes qui apparraissent plus d’une fois sont représentés et sont connectés si la différence entre eux est supérieur à 15. la couleur représente le groupe génétique auquel il appartient. Thèse de doctorat Université Paris Sud: Short term response of European wheat populations to contrasted agro-climatic conditions: a genetic analysis and first step towards development of epigenetic markers in earliness gene VRN-A1, 48. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/abdul_haplo_network_legend.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/abdul_haplo_network_legend.png</a>.</p>
+</div>
+<div id="ref-abdul_pie_groups">
+<p>5. Khan, A. (2013). Figure 2.3.: Groupes génétiques pour chaque variété après avoir enlevé les migrants. la taille des camembert représente le nombre d’individus pour chauqe variété utilisée dans l’analyse. les couleurs différentes représentent la proportion des individus pour un groupe génétique donné. Thèse de doctorat Université Paris Sud: Short term response of European wheat populations to contrasted agro-climatic conditions: a genetic analysis and first step towards development of epigenetic markers in earliness gene VRN-A1, 48. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/abdul_pie_groups.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/abdul_pie_groups.png</a>.</p>
+</div>
+<div id="ref-ACP_C21_color">
+<p>6. Rivière, P. (2014). ACP pour le germplasm c21 sur les marqueurs neutres. Thèse de doctorat Université Paris Sud: présentation de la soutenance de thèse Méthodologie de la sélection décentralisée et participative: un exemple sur le blé tendre. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/ACP_C21_color.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/ACP_C21_color.png</a>.</p>
+</div>
+<div id="ref-ACP_pheno_bis">
+<p>7. Rivière, P. (2014). ACP sur les données phénotypiques pour les types de germplasm. Thèse de doctorat Université Paris Sud: présentation de soutenance de thèse Méthodologie de la sélection décentralisée et participative: un exemple sur le blé tendre. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/ACP_pheno_bis.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/ACP_pheno_bis.png</a>.</p>
+</div>
+<div id="ref-ANB_pop_printemps_juillet">
+<p>8. Bochède, A. Populations de blé semées au printemps. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/ANB_pop_printemps_juillet.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/ANB_pop_printemps_juillet.JPG</a>.</p>
+</div>
+<div id="ref-backcross">
+<p>9. Rivière, P. (2016). Version: V1 du 29 mai 2016. Schéma d’un rétrocroisement. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/backcross" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/backcross</a>.</p>
+</div>
+<div id="ref-BER-visite5">
+<p>10. Rivière, P. (2012). Visite des essais chez graine de noé en 2012. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/BER-visite5.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/BER-visite5.JPG</a>.</p>
+</div>
+<div id="ref-bormans">
+<p>11. Richard, S. (1949). Paul bormans, sélectionneur en ile de france, qui prend des notes accompagné d’une collègue en 1949. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/bormans.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/bormans.pdf</a>.</p>
+</div>
+<div id="ref-brassage_biodiv">
+<p>12. Rivière, P. (2015). Version: V1 du 10 avril 2015. Brassage de la biodiversité. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/brassage_biodiv" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/brassage_biodiv</a>.</p>
+</div>
+<div id="ref-C14_rep1_BER">
+<p>13. Rivière, P. (2011). Photos de la première répétition du c14 chez graine de noé en 2011. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/C14_rep1_BER.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/C14_rep1_BER.JPG</a>.</p>
+</div>
+<div id="ref-C14_rep2_BER">
+<p>14. Rivière, P. (2011). Photos de la deuxième répétition du c14 chez graine de noé en 2011. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/C14_rep2_BER.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/C14_rep2_BER.JPG</a>.</p>
+</div>
+<div id="ref-C21_1">
+<p>15. Rivière, P. (2014). Réseau des relations entre lots de semences pour les germplasms c21, diapo 1. Thèse de doctorat Université Paris Sud: présentation de soutenance de thèse Méthodologie de la sélection décentralisée et participative: un exemple sur le blé tendre. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/C21_1.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/C21_1.png</a>.</p>
+</div>
+<div id="ref-C21_4">
+<p>16. Rivière, P. (2014). Réseau des relations entre lots de semences pour les germplasms c21, diapo 4. Thèse de doctorat Université Paris Sud: présentation de soutenance de thèse Méthodologie de la sélection décentralisée et participative: un exemple sur le blé tendre. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/C21_4.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/C21_4.png</a>.</p>
+</div>
+<div id="ref-C21_6">
+<p>17. Rivière, P. (2014). Réseau des relations entre lots de semences pour les germplasms c21, diapo 6. Thèse de doctorat Université Paris Sud: présentation de soutenance de thèse Méthodologie de la sélection décentralisée et participative: un exemple sur le blé tendre. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/C21_6.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/C21_6.png</a>.</p>
+</div>
+<div id="ref-C21_8">
+<p>18. Rivière, P. (2014). Réseau des relations entre lots de semences pour les germplasms c21, diapo 8. Thèse de doctorat Université Paris Sud: présentation de soutenance de thèse Méthodologie de la sélection décentralisée et participative: un exemple sur le blé tendre. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/C21_8.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/C21_8.png</a>.</p>
+</div>
+<div id="ref-C21_10">
+<p>19. Rivière, P. (2014). Réseau des relations entre lots de semences pour les germplasms c21, diapo 10. Thèse de doctorat Université Paris Sud: présentation de soutenance de thèse Méthodologie de la sélection décentralisée et participative: un exemple sur le blé tendre. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/C21_10.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/C21_10.png</a>.</p>
+</div>
+<div id="ref-C21_14">
+<p>20. Rivière, P. (2014). Réseau des relations entre lots de semences pour les germplasms c21, diapo 14. Thèse de doctorat Université Paris Sud: présentation de soutenance de thèse Méthodologie de la sélection décentralisée et participative: un exemple sur le blé tendre. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/C21_14.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/C21_14.png</a>.</p>
+</div>
+<div id="ref-C21_15">
+<p>21. Rivière, P. (2014). Réseau des relations entre lots de semences pour les germplasms c21, diapo 15. Thèse de doctorat Université Paris Sud: présentation de soutenance de thèse Méthodologie de la sélection décentralisée et participative: un exemple sur le blé tendre. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/C21_15.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/C21_15.png</a>.</p>
+</div>
+<div id="ref-C21_19">
+<p>22. Rivière, P. (2014). Réseau des relations entre lots de semences pour les germplasms c21, diapo 19. Thèse de doctorat Université Paris Sud: présentation de soutenance de thèse Méthodologie de la sélection décentralisée et participative: un exemple sur le blé tendre. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/C21_19.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/C21_19.png</a>.</p>
+</div>
+<div id="ref-carte_2014-2015">
+<p>23. RSP (2015). Nombre de lot de semences récoltés chez les participants du programme de sélection collaborative sur les céréales pour la saison 2014-2015. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/carte_2014-2015.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/carte_2014-2015.pdf</a>.</p>
+</div>
+<div id="ref-carte_2015_tomates">
+<p>24. RSP (2015). Répartition des participants au programme de sélection participative sur les tomates pour la saison 2015. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/carte_2015_tomates.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/carte_2015_tomates.pdf</a>.</p>
+</div>
+<div id="ref-carte_diffusion_2008">
+<p>25. RSP (2015). Diffusion de lots de semences en 2008 au sein du programme de sélection collaborative sur les céréales pour la saison 2014-2015. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/carte_diffusion_2008.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/carte_diffusion_2008.png</a>.</p>
+</div>
+<div id="ref-carte-exsitu">
+<p>26. FAO (2010). Répartition géographique des banques de semences avec plus de 10 000 accessions. The second report on the state of the world’s plant genetic ressources for food and agriculture. Rapport, Rome, Italie. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/carte-exsitu.jpeg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/carte-exsitu.jpeg</a>.</p>
+</div>
+<div id="ref-carte_fso">
+<p>27. Khan, A. (2013). Figure 2.1: Répartition des fermes participants au programme fso. Thèse de doctorat Université Paris Sud: Short term response of European wheat populations to contrasted agro-climatic conditions: a genetic analysis and first step towards development of epigenetic markers in earliness gene VRN-A1, 34. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/carte_fso.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/carte_fso.png</a>.</p>
+</div>
+<div id="ref-carte_msp">
+<p>28. RSP (2014). Répartition des membres du réseau semences paysannes en 2014. Les Maisons des Semences Paysannes : Regards sur la gestion collective de la biodiversité cultivée en France. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/carte_msp.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/carte_msp.png</a>.</p>
+</div>
+<div id="ref-cc-by-nc-sa">
+<p>29. CC Logo de la licence cc by nc sa. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/cc-by-nc-sa.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/cc-by-nc-sa.png</a>.</p>
+</div>
+<div id="ref-cellule_chromosome_adn">
+<p>30. BBC (consulté le 12 janvier 2016). L’ADN au sein des chromosomes dans le noyau de la cellule. BBC web site. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/cellule_chromosome_adn.jpeg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/cellule_chromosome_adn.jpeg</a>.</p>
+</div>
+<div id="ref-cellule_vegetal">
+<p>31. UNIL Structure simplifiée d’une cellule végétale. L’eprouvette. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/cellule_vegetal.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/cellule_vegetal.png</a>.</p>
+</div>
+<div id="ref-Chambrefroide">
+<p>32. INRA Photo d’un chambre froide. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/Chambrefroide.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/Chambrefroide.JPG</a>.</p>
+</div>
+<div id="ref-croisement+generations">
+<p>33. Rivière, P. (V1 du 10 avril 2015). Croisement entre deux populations puis les premières générations. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/croisement+generations" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/croisement+generations</a>.</p>
+</div>
+<div id="ref-cycle_ble">
+<p>34. Arvalis. Cycle du blé d’hiver. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/cycle_ble.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/cycle_ble.png</a>.</p>
+</div>
+<div id="ref-croisement">
+<p>35. Rivière, P. (V1 du 8 avril 2015). Croisement entre deux populations. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/croisement" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/croisement</a>.</p>
+</div>
+<div id="ref-Darwin">
+<p>36. Inconnu (1854). Photos de charles darwin, probablement prise en 1854. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/Darwin.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/Darwin.jpg</a>.</p>
+</div>
+<div id="ref-degustation_pain_1">
+<p>37. Vindras, C. Photos prises lors de dégustation de pain. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/CIMG1723.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/CIMG1723.JPG</a>.</p>
+</div>
+<div id="ref-degustation_pain_2">
+<p>38. Vindras, C. Photos prises lors de dégustation de pain. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/CIMG1725.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/CIMG1725.JPG</a>.</p>
+</div>
+<div id="ref-degustation_pain_3">
+<p>39. Vindras, C. Photos prises lors de dégustation de pain. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/CIMG1726.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/CIMG1726.JPG</a>.</p>
+</div>
+<div id="ref-degustation_tomates_1">
+<p>40. Vindras, V. (2016). Photos d’une table préparée pour une dégustaiton de tomates. Téléchargeable ici: <a href=" https://github.com/priviere/module_figures_images_photos/releases/download/v4/degustation_tomates_1.JPG">https://github.com/priviere/module_figures_images_photos/releases/download/v4/degustation_tomates_1.JPG</a>.</p>
+</div>
+<div id="ref-degustation_tomates_2">
+<p>41. Vindras, V. (2016). Photos d’une table préparée pour une dégustaiton de tomates. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/degustation_tomates_2.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/degustation_tomates_2.JPG</a>.</p>
+</div>
+<div id="ref-diffusion_aestivum">
+<p>42. Agropolis, M. (2016). Version: consulté le 12 janvier 2016. Origine et diffusion de triticum aestivum. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/diffusion_aestivum.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/diffusion_aestivum.jpg</a>.</p>
+</div>
+<div id="ref-diffusion_monococcum">
+<p>43. Agropolis, M. (2016). Version: consulté le 12 janvier 2016. Diffusion et répartition de l’engrain. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/diffusion_monococcum.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/diffusion_monococcum.jpg</a>.</p>
+</div>
+<div id="ref-diffusion_turgidum">
+<p>44. Agropolis, M. (2016). Version: consulté le 12 janvier 2016. Origine et diffusion de triticum turgidum. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/diffusion_turgidum.gif" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/diffusion_turgidum.gif</a>.</p>
+</div>
+<div id="ref-dossier_retour">
+<p>45. RSP, I. (2014). Page de couverture du dossier retour de 2014 dans le cadre du programme de sélection collaborative sur les céréales. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/dossier_retour.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/dossier_retour.pdf</a>.</p>
+</div>
+<div id="ref-dynamique-relation-reseau_without_MLN">
+<p>46. RSP, I. (2012). Dynamique des relations dans le réseau du programme de sélection collaborative sur les céréales sans les données du moulon. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/dynamique-relation-reseau_without_MLN.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/dynamique-relation-reseau_without_MLN.pdf</a>.</p>
+</div>
+<div id="ref-echanges_savoirs">
+<p>47. Rivière, P. (2016). Version: V2 du 29 juin 2016. Echanges de savoirs et savoir-faire dans le cadre d’un programme de sélection collaborative. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/echanges_savoirs" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/echanges_savoirs</a>.</p>
+</div>
+<div id="ref-Effets_genetiques_minimum_et_maximum_des_populations_dans_le_reseau_pour_le_taux_de_proteine_1194476811">
+<p>48. RSP, I. (2015). Effets genetiques minimum et maximum des populations dans le reseau pour le taux de proteine dans le cadre du programme de sélection collaborative sur les céréales en 2015. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/Effets_genetiques_minimum_et_maximum_des_populations_dans_le_reseau_pour_le_taux_de_proteine_1194476811.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/Effets_genetiques_minimum_et_maximum_des_populations_dans_le_reseau_pour_le_taux_de_proteine_1194476811.pdf</a>.</p>
+</div>
+<div id="ref-Elinor-Ostrom">
+<p>49. Motzkau, H. (2009). Press conference with the laureates of the memorial prize in economic sciences 2009 at the kva: Elinor ostrom. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/Elinor_Ostrom.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/Elinor_Ostrom.jpg</a>.</p>
+</div>
+<div id="ref-epifert-19Mai">
+<p>50. Goldringer, I. (2015). Epi mâle-fertile. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/epifert-19Mai.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/epifert-19Mai.jpg</a>.</p>
+</div>
+<div id="ref-epiMS-19Mai">
+<p>51. Goldringer, I. (2015). Epi mâle-stérile. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/epiMS-19Mai.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/epiMS-19Mai.jpg</a>.</p>
+</div>
+<div id="ref-etapes_co_construction">
+<p>52. Rivière, P. (V2 du 23 mai 2016). Etapes de co-construction dans le cadre du projet de sélection collaboative sur les céréales. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/etapes_co_construction" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/etapes_co_construction</a>.</p>
+</div>
+<div id="ref-etape-selection-ferme-cereales">
+<p>53. Rivière, P. (V1 du 10 septembre 2015). Etapes au sein du réseau de fermes du projet de sélection collaboative sur les céréales. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/etape-selection-ferme-cereales" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/etape-selection-ferme-cereales</a>.</p>
+</div>
+<div id="ref-etape-selection-ferme-tomates">
+<p>54. Rivière, P. (V1 du 23 mai 2016). Etapes au sein du réseau de fermes du projet de sélection participative sur les tomates. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/etape-selection-ferme-tomates" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/etape-selection-ferme-tomates</a>.</p>
+</div>
+<div id="ref-evolution_pop">
+<p>55. Rivière, P. (V1 du 15 juin 2015). Evolution d’une population en réponse à son environnement. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/evolution_pop" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/evolution_pop</a>.</p>
+</div>
+<div id="ref-evolution_pop_2">
+<p>56. Rivière, P. (V1 du 21 mars 2016). Evolution d’une population en réponse à la sélection. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/evolution_pop_2" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/evolution_pop_2</a>.</p>
+</div>
+<div id="ref-ex_migration_gab65">
+<p>57. Rivière, P. (V2 du 4 juillet 2016). Exemple de migration dans un mélange de poulard au gab 65. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/ex_migration_gab65" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/ex_migration_gab65</a>.</p>
+</div>
+<div id="ref-fecondation_vegetaux">
+<p>58. jardin, N. et (13 avril 1996). La fécondation chez les végétaux. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/fecondation_vegetaux.jpeg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/fecondation_vegetaux.jpeg</a>.</p>
+</div>
+<div id="ref-fiche-ete">
+<p>59. RSP, I. (2014). Fiche de suivi été utilisée dans le programme de sélection collaborative sur les céréales. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/fiche-ete.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/fiche-ete.png</a>.</p>
+</div>
+<div id="ref-fiches_2013-2014_d2_notice_fiche_ete">
+<p>60. RSP, I. (2014). Notice de la fiche de suivi été utilisée dans le programme de sélection collaborative sur les céréales. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/fiches_2013-2014_d2_notice_fiche_ete.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/fiches_2013-2014_d2_notice_fiche_ete.pdf</a>.</p>
+</div>
+<div id="ref-figures_formation_shinemas_ydo">
+<p>61. Oliviera, Y. de (2017). Figures utilisées dans la formation shinemas pésentant le fontionnement de la base de données. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/figures_formation_shinemas_ydo" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/figures_formation_shinemas_ydo</a>.</p>
+</div>
+<div id="ref-FLM_2012">
+<p>62. Rivière, P. (2012). Mesures des blés chez florent mercier en 2012. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/P1090306.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/P1090306.JPG</a>.</p>
+</div>
+<div id="ref-formation-croisement-cetab-2013-1">
+<p>63. Rivière, P. (2013). Photo prises lors d’une formation croisements au cetab. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/formation-croisement-cetab-2013-1.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/formation-croisement-cetab-2013-1.jpg</a>.</p>
+</div>
+<div id="ref-formation-croisement-cetab-2013-2">
+<p>64. Rivière, P. (2013). Photo prises lors d’une formation croisements au cetab. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/formation-croisement-cetab-2013-2.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/formation-croisement-cetab-2013-2.jpg</a>.</p>
+</div>
+<div id="ref-formation-croisement-cetab-2013-3">
+<p>65. Rivière, P. (2013). Photo prises lors d’une formation croisements au cetab. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/formation-croisement-cetab-2013-3.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/formation-croisement-cetab-2013-3.jpg</a>.</p>
+</div>
+<div id="ref-FRC-visite17">
+<p>66. Rivière, P. (2013). Visite des essais de céréales chez françois caizergues en 2013. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/FRC-visite17.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/FRC-visite17.JPG</a>.</p>
+</div>
+<div id="ref-genealogie_ble">
+<p>67. Rivière, P. (V1 du 15 juin 2015). La généalogie des blés. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/genealogie_ble" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/genealogie_ble</a>.</p>
+</div>
+<div id="ref-gnis_exsitu">
+<p>68. GNIS Lots de semences conservés en chambre froide. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/gnis_exsitu.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/gnis_exsitu.jpg</a>.</p>
+</div>
+<div id="ref-gradiant_brassage">
+<p>69. Rivière, G.I., P. (V2 du 23 mai 2016). Gradiant de brassage de diversité. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/gradiant_brassage" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/gradiant_brassage</a>.</p>
+</div>
+<div id="ref-Gregor_Mendel_oval">
+<p>70. Iltis, H. (1822). Gregor mendel le 20 juillet 1822. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/Gregor_Mendel_oval.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/Gregor_Mendel_oval.jpg</a>.</p>
+</div>
+<div id="ref-gxe">
+<p>71. Rivière, P. (V1 du 7 septembre 2015). Figures sur l’interaction génotype environnement gxe. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/gxe" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/gxe</a>.</p>
+</div>
+<div id="ref-iaastd">
+<p>72. IAASTD (2008). Page de garde du rapport agriculture at a crossroads. international assessment of agricultural knowledge, science and technology for development. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/iaastd.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/iaastd.pdf</a>.</p>
+</div>
+<div id="ref-interactions-SP">
+<p>73. Rivière, P. (V2 du 29 juin 2016). Interactions entre les différents acteurs du programme de sélection collaborative sur les céréales. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/interactions-SP" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/interactions-SP</a>.</p>
+</div>
+<div id="ref-japhabelle1">
+<p>74. Goldringer, I. (2014). Population japhabelle chez jean-françois berthellot en 2014. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/japhabelle1.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/japhabelle1.JPG</a>.</p>
+</div>
+<div id="ref-japhabelle2">
+<p>75. Goldringer, I. (2014). Population japhabelle chez jean-françois berthellot en 2014. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/japhabelle2.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/japhabelle2.JPG</a>.</p>
+</div>
+<div id="ref-japhabelle3">
+<p>76. Goldringer, I. (2014). Population japhabelle chez jean-françois berthellot en 2014. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/japhabelle3.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/japhabelle3.JPG</a>.</p>
+</div>
+<div id="ref-japhabelle4">
+<p>77. Goldringer, I. (2014). Population japhabelle chez jean-françois berthellot en 2014. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/japhabelle4.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/japhabelle4.JPG</a>.</p>
+</div>
+<div id="ref-japhabelle5">
+<p>78. Goldringer, I. (2014). Population japhabelle chez jean-françois berthellot en 2014. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/japhabelle5.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/japhabelle5.JPG</a>.</p>
+</div>
+<div id="ref-japhabelle6">
+<p>79. Goldringer, I. (2014). Population japhabelle chez jean-françois berthellot en 2014. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/japhabelle6.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/japhabelle6.JPG</a>.</p>
+</div>
+<div id="ref-japhabelle7">
+<p>80. Goldringer, I. (2014). Population japhabelle chez jean-françois berthellot en 2014. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/japhabelle7.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/japhabelle7.JPG</a>.</p>
+</div>
+<div id="ref-japhabelle8">
+<p>81. Goldringer, I. (2014). Population japhabelle chez jean-françois berthellot en 2014. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/japhabelle8.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/japhabelle8.JPG</a>.</p>
+</div>
+<div id="ref-JFB_2011">
+<p>82. Rivière, P. (2011). Visite des essais chez jean-françois berthellot en 2011. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/JFB_2011.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/JFB_2011.JPG</a>.</p>
+</div>
+<div id="ref-JSG_2012_1">
+<p>83. Rivière, P. (2012). Mesures des blés chez jean-sébastien gascuel en 2012. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/P1090193.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/P1090193.JPG</a>.</p>
+</div>
+<div id="ref-JSG_2012">
+<p>84. Rivière, P. (2012). Mesures des blés chez jean-sébastien gascuel en 2012. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/P1090190.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/P1090190.JPG</a>.</p>
+</div>
+<div id="ref-JSG-visite1">
+<p>85. Rivière, P. (2011). Visite des essais chez jean-sébastien gascuel en 2011. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/JSG-visite1.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/JSG-visite1.JPG</a>.</p>
+</div>
+<div id="ref-Lamark">
+<p>86. Inconnu Portrait de jean-baptiste lamark. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/Lamark.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/Lamark.jpg</a>.</p>
+</div>
+<div id="ref-Logo-CC">
+<p>87. Carottes, C. de Logo des croqueurs de carottes. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-CC.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-CC.png</a>.</p>
+</div>
+<div id="ref-Logo-CNIL">
+<p>88. CNIL Logo de la cnil. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-CNIL.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-CNIL.png</a>.</p>
+</div>
+<div id="ref-Logo-Conf">
+<p>89. Paysanne, C. Logo de confédération paysanne. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-Conf.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-Conf.jpg</a>.</p>
+</div>
+<div id="ref-Logo-Diversifood">
+<p>90. Diversifood Logo du projet européen diversifood. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-Diversifood.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-Diversifood.jpg</a>.</p>
+</div>
+<div id="ref-Logo-EU">
+<p>91. Européenne, U. Logo de l’Union européenne. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-EU.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-EU.jpg</a>.</p>
+</div>
+<div id="ref-Logo-FdF">
+<p>92. France, F. de Logo de la fondation de france. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-FdF.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-FdF.jpg</a>.</p>
+</div>
+<div id="ref-Logo-ITAB">
+<p>93. ITAB Logo de l’Insititut technique de l’Agriculture biologique. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-ITAB.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-ITAB.jpg</a>.</p>
+</div>
+<div id="ref-Logo-maiage">
+<p>94. MaIAGE Logo de l’Unité de recherche mathématiques et informatique appliquées du génome à l’Environnement (maiage). Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-maiage.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-maiage.png</a>.</p>
+</div>
+<div id="ref-Logo-RSP">
+<p>95. RSP Logo du réseau semences paysannes. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-RSP.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-RSP.jpg</a>.</p>
+</div>
+<div id="ref-Logo-SOLIBAM">
+<p>96. SOLIBAM Logo du projet européen solibam. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-SOLIBAM.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-SOLIBAM.jpg</a>.</p>
+</div>
+<div id="ref-Logo-UMRGV">
+<p>97. UMMR-GQE Logo de l’UMR de génétique quantitative et évolution - le moulon (gqe–Le moulon). Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-UMRGV.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/Logo-UMRGV.jpg</a>.</p>
+</div>
+<div id="ref-mdt-adapt">
+<p>98. Thomas, M. (2011). Extrait présentation. Thèse de doctorat Université Paris Diderot: présentation de la soutenance de la thèse Gestion dynamique à la ferme de l’agrobiodiversité : relation entre la structure des populations de blé tendre et les pratiques humaines. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/mdt-adapt.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/mdt-adapt.pdf</a>.</p>
+</div>
+<div id="ref-mdt-diff">
+<p>99. Thomas, M. (2011). Extrait présentation. Thèse de doctorat Université Paris Diderot: présentation de la soutenance de la thèse Gestion dynamique à la ferme de l’agrobiodiversité : relation entre la structure des populations de blé tendre et les pratiques humaines. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/mdt-diff.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/mdt-diff.pdf</a>.</p>
+</div>
+<div id="ref-mdt-div">
+<p>100. Thomas, M. (2011). Extrait présentation. Thèse de doctorat Université Paris Diderot: présentation de la soutenance de la thèse Gestion dynamique à la ferme de l’agrobiodiversité : relation entre la structure des populations de blé tendre et les pratiques humaines. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/mdt-div.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/mdt-div.pdf</a>.</p>
+</div>
+<div id="ref-mdt-dyn">
+<p>101. Thomas, M. (2011). Extrait présentation. Thèse de doctorat Université Paris Diderot: présentation de la soutenance de la thèse Gestion dynamique à la ferme de l’agrobiodiversité : relation entre la structure des populations de blé tendre et les pratiques humaines. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/mdt-dyn.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/mdt-dyn.pdf</a>.</p>
+</div>
+<div id="ref-methodo-globale">
+<p>102. Rivière, P. (V1 du 15 juin 2015). Schéma de la méthodologie de la sélection décentralisée et collaborative en réseau. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/methodo-globale" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/methodo-globale</a>.</p>
+</div>
+<div id="ref-moisson_1800">
+<p>103. Gogh, V. van (1889). Champ de blé derrière l’hôpital saint-paul avec moissonneur. Huile sur toile, 59 x 72 cm, Museum Folkwang, Essen. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/moisson_1800.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/moisson_1800.jpg</a>.</p>
+</div>
+<div id="ref-moisson_egypte">
+<p>104. Inconnu La moisson avec la faucille à manche court et le glanage. détail d’un fresque retrouvé dans la tombe de sennedjem. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/moisson_egypte.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/moisson_egypte.jpg</a>.</p>
+</div>
+<div id="ref-moisson_moyen_age1">
+<p>105. Inconnu (1425–1475). Battage du blé avec fléau. Livre d’Heures à l’usage de Paris par l’atelier Jouvenel. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/moisson_moyen_age1.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/moisson_moyen_age1.jpg</a>.</p>
+</div>
+<div id="ref-moisson_moyen_age2">
+<p>106. Elder, P.B. the (1565). The corn harvest (august). Oil on panel. The Metropolitan Museum of Art, New York, USA. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/moisson_moyen_age2.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/moisson_moyen_age2.jpg</a>.</p>
+</div>
+<div id="ref-moisson_moyen_age3">
+<p>107. Limbourg (1415). Scène de moisson au moyen-âge, les très riches heures du duc de berry. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/moisson_moyen_age3.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/moisson_moyen_age3.jpg</a>.</p>
+</div>
+<div id="ref-msms">
+<p>108. Zimmermann, F., G. et Pérez (2015). Mise en place de la laine sur les épis mâles-stériles. fondation La main à la pâte. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/msms.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/msms.JPG</a>.</p>
+</div>
+<div id="ref-msms1">
+<p>109. Lecarpentier, C. (2015). Epis de blés mâles-stériles. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/msms1.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/msms1.jpg</a>.</p>
+</div>
+<div id="ref-msms2">
+<p>110. Lecarpentier, C. (2015). Epis de blés mâles-stériles. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/msms2.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/msms2.jpg</a>.</p>
+</div>
+<div id="ref-msms3">
+<p>111. Lecarpentier, C. (2015). Epis de blés mâles-stériles. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/msms3.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/msms3.jpg</a>.</p>
+</div>
+<div id="ref-msms4">
+<p>112. Enjalbert, J. (2015). Epis de blés mâles-stériles. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/msms4.jpeg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/msms4.jpeg</a>.</p>
+</div>
+<div id="ref-msms5">
+<p>113. Enjalbert, J. (2015). Epis de blés mâles-stériles. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/msms5.jpeg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/msms5.jpeg</a>.</p>
+</div>
+<div id="ref-msms6">
+<p>114. Enjalbert, J. (2015). Epis de blés mâles-stériles. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/msms6.jpeg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/msms6.jpeg</a>.</p>
+</div>
+<div id="ref-msms7">
+<p>115. Enjalbert, J. (2015). Epis de blés mâles-stériles. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/msms7.jpeg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/msms7.jpeg</a>.</p>
+</div>
+<div id="ref-msms8">
+<p>116. Enjalbert, J. (2015). Epis de blés mâles-stériles. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/msms8.jpeg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/msms8.jpeg</a>.</p>
+</div>
+<div id="ref-msp_objectifs_acteurs">
+<p>117. Rivière, P. (V1 du 15 juin 2015). Schéma des maisons des semences paysannes en réseau. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/msp_objectifs_acteurs" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/msp_objectifs_acteurs</a>.</p>
+</div>
+<div id="ref-OUT_graph_4-c-2-evolution-etape-ppb__dynamique-relation-reseau_without_MLN">
+<p>118. RSP, I. (2013). Evolution des étapes du programme de sélection collaborative sur les céréales sans les données du moulon. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/OUT_graph_4-c-2-evolution-etape-ppb__dynamique-relation-reseau_without_MLN.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/OUT_graph_4-c-2-evolution-etape-ppb__dynamique-relation-reseau_without_MLN.pdf</a>.</p>
+</div>
+<div id="ref-picri_qualite">
+<p>119. Vindras, C. (2009). Extrait du rapport d’activités du picri développement de pratiques paysannes de gestion et sélection des variétés de blé pour du pain bio de qualité en région ile-de-france. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/picri_qualite" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/picri_qualite</a>.</p>
+</div>
+<div id="ref-plan_FR">
+<p>120. Rivière, P. Plan d’une ferme régionale. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/plan_FR" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/plan_FR</a>.</p>
+</div>
+<div id="ref-plan_FS">
+<p>121. Rivière, P. Plan d’une ferme satellite. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/plan_FS" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/plan_FS</a>.</p>
+</div>
+<div id="ref-plan_semis_gd_parcelle">
+<p>122. RSP, I. Plan d’essai de grands parcelles dans les fermes. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/plan_semis_gd_parcelle" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/plan_semis_gd_parcelle</a>.</p>
+</div>
+<div id="ref-plan_S-NS">
+<p>123. Rivière, P. Plan d’une ferme satellite avec une expérience de réponse à la sélection. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/plan_S-NS" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/plan_S-NS</a>.</p>
+</div>
+<div id="ref-plante_ble">
+<p>124. Inconnu Plante de blé. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/plante_ble.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/plante_ble.png</a>.</p>
+</div>
+<div id="ref-plan_tomates">
+<p>125. RSP (2016). Version: V1 du 26 mai 2016. Plan d’un essai dans le cadre du programme de sélection participative sur la tomate. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/plan_tomates" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/plan_tomates</a>.</p>
+</div>
+<div id="ref-plant_tomate">
+<p>126. Alliance, O.S. Plant de tomate. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/plant_tomate.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/plant_tomate.png</a>.</p>
+</div>
+<div id="ref-plateforme_phenotypage_agropolis">
+<p>127. INRA Plateforme de phénotypage d’Agropolis. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/plateforme_phenotypage_agropolis.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/plateforme_phenotypage_agropolis.jpg</a>.</p>
+</div>
+<div id="ref-plateforme_phenotypage_inra_toulouse">
+<p>128. INRA Plateforme de phénotypage. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/plateforme_phenotypage_inra_toulouse.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/plateforme_phenotypage_inra_toulouse.jpg</a>.</p>
+</div>
+<div id="ref-PPBstats_unnamed-chunk-25-1">
+<p>129. RSP, I. (2015). Comparaison de moyenne sur plusieurs années. vignette du package R PPBstats. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/PPBstats_unnamed-chunk-25-1.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/PPBstats_unnamed-chunk-25-1.pdf</a>.</p>
+</div>
+<div id="ref-PPBstats_unnamed-chunk-46-1">
+<p>130. RSP, I. (2015). Groupes d’environnement. vignette du package R PPBstats. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/PPBstats_unnamed-chunk-46-1.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/PPBstats_unnamed-chunk-46-1.pdf</a>.</p>
+</div>
+<div id="ref-presence_abscence_matrix_pmg2015">
+<p>131. RSP, I. (2015). Matrice de présence abscence germplasm x environnement pour le poids de mille grains pour la récolte 2015. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/presence_abscence_matrix_pmg2015.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/presence_abscence_matrix_pmg2015.pdf</a>.</p>
+</div>
+<div id="ref-proba">
+<p>132. RSP, I. (2015). Fonctions de densité pour représenter les hypothèses h0 et h1. vignette du package R PPBstats. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/proba.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/proba.pdf</a>.</p>
+</div>
+<div id="ref-prot_fdf">
+<p>133. RSP, I. (2015). Taux de protéine pour les différentes variétés évaluées. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/prot_fdf.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/prot_fdf.png</a>.</p>
+</div>
+<div id="ref-question-cadre">
+<p>134. Thomas, M. (2011). Extraits de la présentation de la thèse. Thèse de doctorat Université Paris Diderot: extrait de la présentation de la soutenance de thèse Gestion dynamique à la ferme de l’agrobiodiversité : relation entre la structure des populations de blé tendre et les pratiques humaines. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/question-cadre.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/question-cadre.pdf</a>.</p>
+</div>
+<div id="ref-RAB_2012">
+<p>135. Rivière, P. (2012). Visite des blés chez rapahel baltassat en 2012. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/P1080569.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/P1080569.JPG</a>.</p>
+</div>
+<div id="ref-rdt_fdf">
+<p>136. RSP, I. (2015). Rendement pour les différentes variétés évaluées. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/rdt_fdf.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/rdt_fdf.png</a>.</p>
+</div>
+<div id="ref-recombinaison">
+<p>137. Rivière, P. (V1 du 26 mai 2015.). La recombinaisons des gamètes. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/recombinaison" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/recombinaison</a>.</p>
+</div>
+<div id="ref-relation_SL">
+<p>138. Rivière, P. (2014). Version: V1 du 17 février 2014. Relations entre les lots de semences dans shinemas. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/relation_SL" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/relation_SL</a>.</p>
+</div>
+<div id="ref-relation_SL_EN">
+<p>139. Rivière, P. (2015). Version: V1 of 2 november 2015. Relations between seed-lots within shinemas. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/relation_SL_EN" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/relation_SL_EN</a>.</p>
+</div>
+<div id="ref-rep">
+<p>140. Rivière, P. (2015). Version: V1 du 9 avril 2015. Pourquoi des répétitions? Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/rep" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/rep</a>.</p>
+</div>
+<div id="ref-reseau_BDD">
+<p>141. Rivière, P. (2016). Version: V1 du 8 mars 2016. Réseau de bases de données. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/reseau_BDD" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/reseau_BDD</a>.</p>
+</div>
+<div id="ref-ROW-visite14">
+<p>142. Rivière, P. (2011). Visite chez romain wittrich en 2011. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/ROW-visite14.JPG" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/ROW-visite14.JPG</a>.</p>
+</div>
+<div id="ref-salade">
+<p>143. nl, R. de Laitue beurre ’appia’. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/salade.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/salade.jpg</a>.</p>
+</div>
+<div id="ref-SandR">
+<p>144. Rivière, P. (V1 du 11 novembre 2015). Expérience de la réponse à la sélection. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/SandR" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/SandR</a>.</p>
+</div>
+<div id="ref-SandR_EN">
+<p>145. Rivière, P. (2015). Version: V1 from 11 november 2015. Reponse to selection experiment. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/SandR_EN" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/SandR_EN</a>.</p>
+</div>
+<div id="ref-schema_selection_tomates">
+<p>146. Alliance, O.S. (2014). Schéma de sélection chez la tomate. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/schema_selection_tomates.png.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/schema_selection_tomates.png.pdf</a>.</p>
+</div>
+<div id="ref-segregation_f2">
+<p>147. Rivière, P. (2015). Version: V1 du 25 mai 2015. La ségrégation des caractères. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/segregation_f2" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/segregation_f2</a>.</p>
+</div>
+<div id="ref-sel-decentralisee">
+<p>148. Rivière, P. (2014). Version: V1 du 17 février 2014. La sélection décentralisée en comparaison de la sélection centralisée. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/sel-decentralisee.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/sel-decentralisee.pdf</a>.</p>
+</div>
+<div id="ref-selection-hierarchisee-site-UPOV-acces-le-2012-09-25">
+<p>149. UPOV (2013). Version: consulté le 15 septembre 2013. L’organisation de la sélection sur le site internet de l’UPOV. www.upov.int/overview/fr/. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/selection-hierarchisee-site-UPOV-acces-le-2012-09-25.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/selection-hierarchisee-site-UPOV-acces-le-2012-09-25.png</a>.</p>
+</div>
+<div id="ref-sigma_distribution_plant_height">
+<p>150. RSP, I. (2015). Distribution des variances environmentales pour la hauteur en 2015. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/sigma_distribution_plant_height.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/sigma_distribution_plant_height.pdf</a>.</p>
+</div>
+<div id="ref-sigma_distribution_tkw">
+<p>151. RSP, I. (2015). Distribution des variances environmentales pour le poids de mille grains en 2015. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/sigma_distribution_tkw.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/sigma_distribution_tkw.pdf</a>.</p>
+</div>
+<div id="ref-sigma_gamma">
+<p>152. Rivière, P. Loi gamma d’où sont issues les variances environnmentales. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/sigma_gamma.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/sigma_gamma.pdf</a>.</p>
+</div>
+<div id="ref-siregal_capture_ecran">
+<p>153. Siregal (2016). Version: consulté le 12 janvier 2016. Capture d’écran du site siregal. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/siregal_capture_ecran.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/siregal_capture_ecran.png</a>.</p>
+</div>
+<div id="ref-sp1">
+<p>154. Rivière, P. (2011). Essais chez graines de noé en 2011. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/sp1.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/sp1.jpg</a>.</p>
+</div>
+<div id="ref-sp2">
+<p>155. Rivière, P. (2011). Rencontres de bout de champ chez christian dalmasso en 2011. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/sp2.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/sp2.jpg</a>.</p>
+</div>
+<div id="ref-sp3">
+<p>156. Rivière, P. (2012). Rencontres de bout de champ chez raphael baltassat en 2012. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/sp3.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/sp3.jpg</a>.</p>
+</div>
+<div id="ref-sp5">
+<p>157. Rivière, P. (2012). Mesures des blés chez jean-sébastien gascuel en 2012. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/sp5.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/sp5.jpg</a>.</p>
+</div>
+<div id="ref-sp6">
+<p>158. Rivière, P. (2012). Mesures des blés chez olivier ranke en 2012. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/sp6.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/sp6.jpg</a>.</p>
+</div>
+<div id="ref-sp8">
+<p>159. Rivière, P. (2011). Rencontres de bout de champ chez jean-sébastien gascuel en 2011. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/sp8.jpg" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/sp8.jpg</a>.</p>
+</div>
+<div id="ref-sp-en-cours">
+<p>160. Rivière, P. (2015). Etapes de la co-construciton du programme. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/sp-en-cours.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/sp-en-cours.pdf</a>.</p>
+</div>
+<div id="ref-SP_futur">
+<p>161. RSP Les semences paysannes sont les graines du futurs. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/SP_futur.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/SP_futur.png</a>.</p>
+</div>
+<div id="ref-spicilege_capture_ecran">
+<p>162. RSP Capture d’écran du spicilège. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/spicilege_capture_ecran.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/spicilege_capture_ecran.png</a>.</p>
+</div>
+<div id="ref-technical-booklet">
+<p>163. RSP, I. (2012). Page de garde du guide technique: Des blés en (r)Evolution : SOLIBAM, projet de sélection participative entre le réseau semences paysannes et l’INRA du moulon : Création de variétés de blé tendre de qualité adaptées à l’Agriculture biologique et conservation de la biodiversité cultivée. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/technical-booklet.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/technical-booklet.pdf</a>.</p>
+</div>
+<div id="ref-unctad">
+<p>164. UNCTAD (2013). Page de garde du dossier de l’UNCTAD. make agriculture truly sustainable now for food security in a changing climate. Trade and environment review. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/unctad.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/unctad.pdf</a>.</p>
+</div>
+<div id="ref-VM">
+<p>165. Inconnu Photos d’une lignée pure. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/VM.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/VM.png</a>.</p>
+</div>
+<div id="ref-VP">
+<p>166. Goldringer, I. Photos d’une variété population. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/VP.png" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/VP.png</a>.</p>
+</div>
+<div id="ref-warning">
+<p>167. Inconnu Image d’un panneau warning. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/warning" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/warning</a>.</p>
+</div>
+<div id="ref-WEB_ok_Les_MSP">
+<p>168. RSP (2014). Les maisons des semences paysannes : Regards sur la gestion collective de la biodiversité cultivée en france. Téléchargeable ici: <a href="https://github.com/priviere/module_figures_images_photos/releases/download/v4/WEB_ok_Les_MSP.pdf" class="uri">https://github.com/priviere/module_figures_images_photos/releases/download/v4/WEB_ok_Les_MSP.pdf</a>.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
