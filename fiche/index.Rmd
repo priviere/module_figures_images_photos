@@ -17,7 +17,7 @@ csl: /home/pierre/Documents/RSP/formations/modules_formations/module_figures_ima
 **Copyright Réseau Semences Paysannes. [Licence creative commons BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)**
 
 ```{r , out.width='20%', fig.align='center', echo=FALSE}
-knitr::include_graphics("../documents/cc-by-nc-sa.png")
+knitr::include_graphics("cc-by-nc-sa.png")
 ```
 
 
