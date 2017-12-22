@@ -8,4 +8,6 @@ navbar:
       href: LICENCE.html
     - text: "Evolutions"
       href: NEWS.html
+    - text: "Téléchargement de la fiche"
+      href: format.html
 output_dir: "../docs"

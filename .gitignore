@@ -1,3 +1,7 @@
 documents
 .Rproj.user
 .Rhistory
+*.docx
+*.odt
+*.pdf
+*.rtf
