@@ -1,10 +1,10 @@
 
 Télécharger la fiche sous différents formats:
 
-- [odt](https://github.com/priviere/module_figures_images_photos/releases/download/v4/module_figures_images_photos.odt)
-- [docx](https://github.com/priviere/module_figures_images_photos/releases/download/v4/module_figures_images_photos.docx)
-- [pdf](https://github.com/priviere/module_figures_images_photos/releases/download/v4/module_figures_images_photos.pdf)
-- [rtf](https://github.com/priviere/module_figures_images_photos/releases/download/v4/module_figures_images_photos.rtf)
+- [odt](https://github.com/priviere/module_figures_images_photos/releases/download/v5/module_figures_images_photos.odt)
+- [docx](https://github.com/priviere/module_figures_images_photos/releases/download/v5/module_figures_images_photos.docx)
+- [pdf](https://github.com/priviere/module_figures_images_photos/releases/download/v5/module_figures_images_photos.pdf)
+- [rtf](https://github.com/priviere/module_figures_images_photos/releases/download/v5/module_figures_images_photos.rtf)
 
 Télécharger les codes de la fiche et du site web [ici](https://github.com/priviere/module_figures_images_photos).
 

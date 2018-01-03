@@ -10,11 +10,11 @@ Plus d’informations ici: http://creativecommons.org/licenses/by-nc-sa/4.0/deed
 **Pour citer la fiche:**
 Cycle de formations sur la gestion dynamique de la biodiversité cultivée dans les Maisons des Semences Paysannes en réseau. Documents utilisés dans les modules de formation. 
 Réseau Semences Paysannes. 
-Version 4 du 21 décembre 2017. 
+Version 5 du 3 janvier 2018. 
 Licence CC BY NC SA.
 
 **Pour citer les codes:** 
-Cycle de formations sur la gestion dynamique de la biodiversité cultivée dans les Maisons des Semences Paysannes en réseau. Documents utilisés dans les modules de formation. Code *.Rmd* pour générer le document.
+Cycle de formations sur la gestion dynamique de la biodiversité cultivée dans les Maisons des Semences Paysannes en réseau. Documents utilisés dans les modules de formation. Code pour générer le document.
 Réseau Semences Paysannes. 
-Version 4 du 21 décembre 2017. 
+Version 5 du 3 janvier 2018. 
 Licence CC BY NC SA.

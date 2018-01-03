@@ -6,7 +6,7 @@ csl: /home/pierre/Documents/RSP/formations/modules_formations/module_figures_ima
 ---
 
 # Documents utilisés dans les modules de formation
-**Version 4 du 21 décembre 2017.**
+**Version 5 du 3 janvier 2018.**
 
 **Pierre Rivière** ^1^
 
