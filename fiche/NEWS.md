@@ -30,8 +30,19 @@
   	- salade.jpg
   	- figures_formation_shinemas_ydo.odp et pdf 
 
-# version 4  du 21 décembre 2017
+# version 4 du 21 décembre 2017
 
 - recodage en Rmd
 - mise à jour nom de photos
 
+# version 5 du 3 janvier 2018
+Ajout des photos suivantes:
+
+- 2015_STR_ABP_blé
+- 2015_STR_ABP_potager_curieux
+- 2015_STR_ABP_potager_curieux_2
+- 2015_STR_RSP_boulange
+- 2015_STR_RSP_boulange_2
+- 2015_we_tomates_gdp
+- 2015_we_tomates_gdp_2
+- 2015_we_tomates_gdp_3
