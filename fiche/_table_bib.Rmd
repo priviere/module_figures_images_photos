@@ -176,3 +176,16 @@
 |VP|[@VP]|
 |warning|[@warning]|
 |WEB_ok_Les_MSP|[@WEB_ok_Les_MSP]|
+|2017_visite_en_mai_chez_Hervé_Aribaud|[@2017_visite_en_mai_chez_Herve_Aribaud]|
+|2011_notation_hiver_chez_BER|[@2011_notation_hiver_chez_BER]|
+|FLM-mesures4|[@FLM-mesures4]|
+|2011_notation_recolte_CHD|[@2011_notation_recolte_CHD]|
+|JSG-mesure1|[@JSG-mesure1]|
+|2012_levee_semis_OLR|[@2012_levee_semis_OLR]|
+|logo-INRA|[@logo-INRA]|
+|2012_notations_semis_JSG|[@2012_notations_semis_JSG]|
+|OLR-mesures14|[@OLR-mesures14]|
+|2014_recolte_chez_JSG|[@2014_recolte_chez_JSG]|
+|workflow_shinemas_ppbstats_FR|[@workflow_shinemas_ppbstats_FR]|
+|workflow_shinemas_ppbstats_EN|[@workflow_shinemas_ppbstats_EN]|
+

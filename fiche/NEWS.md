@@ -46,3 +46,24 @@ Ajout des photos suivantes:
 - 2015_we_tomates_gdp
 - 2015_we_tomates_gdp_2
 - 2015_we_tomates_gdp_3
+
+# version 6 du 17 février 2019
+
+Ajout des photos suivantes:
+
+- 2017_visite_en_mai_chez_Hervé_Aribaud
+- 2011_notation_hiver_chez_BER
+- FLM-mesures4
+- 2011_notation_recolte_CHD
+- JSG-mesure1
+- 2012_levee_semis_OLR
+- logo-INRA
+- 2012_notations_semis_JSG
+- OLR-mesures14
+- 2014_recolte_chez_JSG
+
+Ajout des figures suivantes:
+
+- workflow_shinemas_ppbstats_FR
+- workflow_shinemas_ppbstats_EN
+
