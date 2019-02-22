@@ -188,4 +188,11 @@
 |2014_recolte_chez_JSG|[@2014_recolte_chez_JSG]|
 |workflow_shinemas_ppbstats_FR|[@workflow_shinemas_ppbstats_FR]|
 |workflow_shinemas_ppbstats_EN|[@workflow_shinemas_ppbstats_EN]|
-
+|2014_JFB_renan_pop|[@2014_JFB_renan_pop]|
+|2015_RAB_savoysone|[@2015_RAB_savoysone]|
+|res_ecoagri_year_and_env|[@res_ecoagri_year_and_env]|
+|melanges_carte_paysans|[@melanges_carte_paysans]|
+|melanges_dispositif_francais|[@melanges_dispositif_francais]|
+|melanges_dispositif_melanges|[@melanges_dispositif_melanges]|
+|melanges_nb_comp|[@melanges_nb_comp]|
+|melanges_OveryieldingVariationComp|[@melanges_OveryieldingVariationComp]|

@@ -67,3 +67,20 @@ Ajout des figures suivantes:
 - workflow_shinemas_ppbstats_FR
 - workflow_shinemas_ppbstats_EN
 
+
+# version 7 du 19 février 2019
+
+Ajout des photos suivantes:
+
+- 2014_JFB_renan_pop
+- 2015_RAB_savoysone
+
+Ajout des figures suivantes:
+
+- res_ecoagri_year_and_env
+- melanges_carte_paysans
+- melanges_dispositif_francais
+- melanges_dispositif_melanges
+- melanges_nb_comp
+- melanges_OveryieldingVariationComp
+
