@@ -102,6 +102,7 @@
 |Logo-FdF|[@Logo-FdF]|
 |Logo-ITAB|[@Logo-ITAB]|
 |Logo-maiage|[@Logo-maiage]|
+|Logo-metis|[@Logo-metis]|
 |Logo-RSP|[@Logo-RSP]|
 |Logo-SOLIBAM|[@Logo-SOLIBAM]|
 |Logo-UMRGV|[@Logo-UMRGV]|
@@ -176,7 +177,7 @@
 |VP|[@VP]|
 |warning|[@warning]|
 |WEB_ok_Les_MSP|[@WEB_ok_Les_MSP]|
-|2017_visite_en_mai_chez_Hervé_Aribaud|[@2017_visite_en_mai_chez_Herve_Aribaud]|
+|2017_visite_en_mai_chez_Herve_Aribaud|[@2017_visite_en_mai_chez_Herve_Aribaud]|
 |2011_notation_hiver_chez_BER|[@2011_notation_hiver_chez_BER]|
 |FLM-mesures4|[@FLM-mesures4]|
 |2011_notation_recolte_CHD|[@2011_notation_recolte_CHD]|
@@ -196,3 +197,17 @@
 |melanges_dispositif_melanges|[@melanges_dispositif_melanges]|
 |melanges_nb_comp|[@melanges_nb_comp]|
 |melanges_OveryieldingVariationComp|[@melanges_OveryieldingVariationComp]|
+|logo-metis|[@logo-metis]|
+|Principles-of-QTL|[@Principles-of-QTL]|
+|backcross_2|[@backcross_2]|
+|selection_genomique|[@selection_genomique]|
+|OGM|[@OGM]|
+|cms_tournesol|[@cms_tournesol]|
+|effet_hybrdes_mais|[@effet_hybrdes_mais]|
+|fusion_protoplaste|[@fusion_protoplaste]|
+|crisprcas9|[@crisprcas9]|
+|gnis-pedagogie-amelioration-plantes-mutagenese-dirigee-utilisation-oligonucleotides-1140x806|[@gnis-pedagogie-amelioration-plantes-mutagenese-dirigee-utilisation-oligonucleotides-1140x806]|
+|kultursaat_poivrons_pantos|[@kultursaat_poivrons_pantos]|
+|kultursaat_carotte_rodelika|[@kultursaat_carotte_rodelika]|
+|kultursaat_rencontres|[@kultursaat_rencontres]|
+|kultursaat_rencontres_carottes|[@kultursaat_rencontres_carottes]|

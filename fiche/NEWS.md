@@ -84,3 +84,25 @@ Ajout des figures suivantes:
 - melanges_nb_comp
 - melanges_OveryieldingVariationComp
 
+
+# version 8 du 19 juin 2020
+
+Ajout des photos suivantes:
+
+- effet_hybrdes_mais
+- kultursaat_poivrons_pantos
+- kultursaat_carotte_rodelika
+- kultursaat_rencontres
+- kultursaat_rencontres_carottes
+
+Ajout des figures suivantes:
+
+- logo-metis
+- Principles-of-QTL
+- backcross_2
+- selection_genomique
+- OGM
+- cms_tournesol
+- fusion_protoplaste
+- crisprcas9
+- gnis-pedagogie-amelioration-plantes-mutagenese-dirigee-utilisation-oligonucleotides-1140x806

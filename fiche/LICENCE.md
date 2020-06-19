@@ -1,5 +1,5 @@
 **Copyright & Licence:** 
-Copyright Réseau Semences Paysannes.
+Copyright Mètis.
 Les codes et les documents de ce dossier sont sous licence creative commons BY-NC-SA. 
 Vous êtes autorisé à partager et à adapter son contenu tant que vous citez 
 les auteurs de ce document et indiquez si des changements ont eu lieu, 
@@ -9,12 +9,12 @@ Plus d’informations ici: http://creativecommons.org/licenses/by-nc-sa/4.0/deed
 
 **Pour citer la fiche:**
 Cycle de formations sur la gestion dynamique de la biodiversité cultivée dans les Maisons des Semences Paysannes en réseau. Documents utilisés dans les modules de formation. 
-Réseau Semences Paysannes. 
-Version 7 du 20 février 2019. 
+Mètis. 
+Version 8 du 19 juin 2020. 
 Licence CC BY NC SA.
 
 **Pour citer les codes:** 
 Cycle de formations sur la gestion dynamique de la biodiversité cultivée dans les Maisons des Semences Paysannes en réseau. Documents utilisés dans les modules de formation. Code pour générer le document.
-Réseau Semences Paysannes. 
-Version 7 du 20 février 2019. 
+Mètis. 
+Version 8 du 19 juin 2020. 
 Licence CC BY NC SA.

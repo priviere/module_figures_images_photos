@@ -6,13 +6,11 @@ csl: /home/pierre/Documents/formations/modules_formations/module_figures_images_
 ---
 
 # Documents utilisés dans les modules de formation
-**Version 7 du 20 février 2019.**
+**Version 8 du 19 juin 2020.**
 
-**Pierre Rivière** ^1^
+**Pierre Rivière**
 
-^1^ Réseau Semences Paysannes, 3, avenue de la Gare F-47190 Aiguillon, France
-
-**Contact** : pierre@semencespaysannes.org
+**Contact** : collectif_metis@riseup.net
 
 **Copyright Réseau Semences Paysannes. [Licence creative commons BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)**
 
@@ -29,7 +27,7 @@ Plus d’informations ici: http://creativecommons.org/licenses/by-nc-sa/4.0/deed
 **Pour citer ce document:**
 Cycle de formations sur la gestion dynamique de la biodiversité cultivée dans les Maisons des Semences Paysannes en réseau. Documents utilisés dans le cycle de formation. 
 Réseau Semences Paysannes. 
-Version 7 du 20 février 2019. 
+Version 8 du 19 juin 2020. 
 Fiche technique.
 Licence CC BY NC SA.
 
